@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TencentTool"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A tool create from CYC666"
 
   s.description  = "this is a tool of OC taht creat from CYC666"
