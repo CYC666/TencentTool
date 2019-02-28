@@ -15,6 +15,8 @@
     
     NSLog(@"Happy");
     
+    NSLog(@"0.0.2")
+    
 }
 
 
