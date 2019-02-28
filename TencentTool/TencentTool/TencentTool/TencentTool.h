@@ -7,12 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+#define cWindow [UIApplication sharedApplication].keyWindow
 
 @interface TencentTool : NSObject
 
 - (void)showHappy;
+
+// 根据url生成二维码方法
++ (UIImage *)create2DBarcodeByURL:(NSString *)urlStr withSize:(CGFloat)size;
+
+
+
+
 
 @end
 
