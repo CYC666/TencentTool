@@ -17,11 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showHappy;
 
-// 根据url生成二维码方法
-+ (UIImage *)create2DBarcodeByURL:(NSString *)urlStr withSize:(CGFloat)size;
-
-// 颜色转换为背景图片
-+ (UIImage *)imageWithColor:(UIColor *)color;
 
 
 
